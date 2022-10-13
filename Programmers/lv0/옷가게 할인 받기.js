@@ -1,10 +1,11 @@
 function solution(price) {
-    let result = 0;
     if(price >= 100000 && price<300000){
-        return result = price - price* 0.05;
+          return price * 0.95<<0;
     }else if(price < 500000 && price >= 300000){
-        return result = price - price* 0.1;
+        return price * 0.9 <<0;
     }else if(price>=500000){
-        return result = price - price* 0.2;
+        return price * 0.8<<0;
+    }else{
+        return price;
     }
 }
